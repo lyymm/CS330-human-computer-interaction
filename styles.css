@@ -1,0 +1,132 @@
+body {
+    background-color: aliceblue;
+}
+
+main {
+    margin-top: 100px;
+    margin-left: 2em;
+    color: purple;
+}
+
+.web-title {
+    text-align: center;
+}
+
+.web-intro {
+    font-size: larger;
+    color: black;
+    text-align: center;
+}
+
+#showcase-projects {
+    text-align: center;
+}
+
+.bio {
+    text-align: center;
+    width: 1300px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.selfie {
+    margin-left: 600px;
+    width: 250px;
+    height: 350px;
+    border: 2px solid #2288aa;
+    border-radius: 5%;
+}
+
+.intro {
+    margin-left: 100px;
+    width: 450px;
+}
+
+.sub-title {
+    color: purple;
+}
+
+.info {
+    margin-left: 600px;
+}
+
+.content {
+    font-weight: 300;
+    color: grey;
+}
+
+.projects {
+    color: royalblue;
+    text-align: center;
+    width: 1000px;
+    margin-left: 430px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+}
+
+.projects .project-cover {
+    border: 2px solid #2288aa;
+    border-radius: 5%;
+    width: 300px;
+    height: 225px;
+} 
+
+.project2-content {
+    color: black;
+    text-align: left;
+    font-weight: 320;
+    font-size: 90%;
+    width: 1830px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project2-content .project2-img {
+    width: 320px;
+    height: 240px;
+    margin-left: 400px;
+    margin-top: 20px;
+    border: 3px solid #2288aa;
+    border-radius: 10%;
+}
+
+.project2-content .project2-intro {
+    margin-top: 5px;
+}
+
+nav.top-menu {
+    background-color: aliceblue;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    /* box-shadow: 0px 4px 4px #0003; */
+    padding-left: 43%;
+}
+nav.top-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav.top-menu li {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fffd;
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    user-select: none;
+    position: relative;
+}
+
+
+nav.top-menu li a:hover {
+    text-decoration: underline;
+}
+nav.top-menu li a:active {
+    color:#fff;
+}

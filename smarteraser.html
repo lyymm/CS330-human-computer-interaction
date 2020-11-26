@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Smart Eraser</title>
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+      <nav class="top-menu">
+         <ul>
+            <li><a href="portfolio.html">Home</a></li>
+            <li><a href="resume.pdf">Resume</a></li>
+            <li><a href="biography.html">Biography</a></li>
+         </ul>
+      </nav>
+      <main>
+         <h1 class="web-title">Smart Eraser</h1>
+         <div class="project2-content">
+            <img class="project2-img" src="0002.jpg">
+            <div class="project2-intro">
+               <h2 class="sub-title">Abstract</h2>
+               <p>The main purpose of the smart eraser is simulating the eraser effect</p>
+               <p>in a given video. Meanwhile, this project is very primitive by using target tracking</p>
+               <p>based on bouding box and dynamic programming to simulate the erased part.</p>
+            </div>
+            <img class="project2-img" src="0003.jpg">
+            <div class="project2-intro">
+               <h2 class="sub-title">Target Tracking</h2>
+               <p>To begin with, the location and proper size of bounding box</p>
+               <p>including the eraser should be given in the first frame of video.</p>
+               <p>And it is easy to see a sentence "Can you erase me?",</p>
+               <p>written in red pen, which is the erased goal of this project.</p>
+               <p>With the tracking criterion, the bounding box would follow the movement</p>
+               <p>of eraser and provide a coordinate to the next step of eraser effect.</p>
+            </div>          
+            <img class="project2-img" src="0004.jpg">
+            <div class="project2-intro">
+               <h2 class="sub-title">Dynamic Programming for Eraser Simulation</h2>
+               <p>The dynamic programming is simulating a coherent erased area to get nearly real eraser effect.</p>
+               <p>First it would obtain enough samples from clean background such as the drawn area in left picture.</p>
+               <p>Then the DP technique would calculate the most suitable and coherent boundary.</p>
+            </div>
+            <img class="project2-img" src="0005.jpg">
+            <div class="project2-intro">
+               <h2 class="sub-title">Summary</h2>
+               <p>The results are natural as expected with the good performance of DP.</p>
+               <p>There exist some incoherent boundary and the work can be further improved</p>
+               <p>with trials of different methods in target tracking and eraser simulation.</p>
+            </div>
+         </div>
+      </main>
+   </body>
+</html>
