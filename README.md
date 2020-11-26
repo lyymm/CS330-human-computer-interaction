@@ -2,7 +2,7 @@
 ## P6 Create your own portfolio website
 ### portfolio.html
 The landing page of website with two showcase projects and one clickable project called smart eraser.
-(portfolio.png)
+
 ### biography.html
 The biography page of myself, including self introduction, education and contact information with access to my email address.
 ### smarteraser.html
